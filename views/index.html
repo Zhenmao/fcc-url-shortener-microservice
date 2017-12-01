@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>URL Shortener Microservice | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1>URL Shortener Microservice</h1>
+         <blockquote>
+                <ul>1) You can pass a URL as a parameter and you will receive a shortened URL in the JSON response.</ul>
+                <ul>2) When you visit that shortened URL, it will redirect you to your original link.</ul>
+        </blockquote>
+        
+        <h3>
+          Example creation usage:
+        </h3>
+        <code>https://fcc-zhenmao-url-shortener-microservice.glitch.me/new/https://www.google.com</code><br>
+        <code>https://fcc-zhenmao-url-shortener-microservice.glitch.me/new/http://foo.com:80</code>
+
+        <h3>
+          Example creation output
+        </h3>
+        <code>
+          {
+            "original_url":"http://foo.com:80",
+            "short_url":"https://fcc-zhenmao-url-shortener-microservice.glitch.me/8170"
+          }
+        </code>
+
+        <h3>
+          Usage:
+        </h3>
+        <code>https://little-url.herokuapp.com/2871</code>
+        
+        <h3>
+          Will redirect to:
+        </h3>
+        <code>https://www.google.com/</code>
+
+      </div>
+   </body>
+
+</html>
