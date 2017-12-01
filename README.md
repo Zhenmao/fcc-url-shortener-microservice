@@ -11,7 +11,7 @@
 `{ "original_url":"http://foo.com:80", "short_url":"https://fcc-zhenmao-url-shortener-microservice.glitch.me/8170" }
 `
 ## Usage:
-`https://little-url.herokuapp.com/2871`
+`https://fcc-zhenmao-url-shortener-microservice.glitch.me/2871`
 
 ## Will redirect to:
 `https://www.google.com/`
